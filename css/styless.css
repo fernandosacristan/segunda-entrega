@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font: size 62px;
+}
+
+header{
+    background-color: #045252;
+    padding: 1rem;
+    margin-top: 0%;
+    
+}
+.logoheader{
+    width: 8rem;
+    justify-content: center;
+}
+.video{
+   
+    width: 40rem;
+    
+}
+a {
+    text-decoration: none;
+    color: wheat;
+    margin: 1rem;
+}
+body {
+   background-color: #03cccc;
+}
+
+
+.boton{
+    padding: 1rem;
+}
+
+.navegacion  {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    }
+   
+
+
+     #dementes{
+        width: 100%;
+        background-color: #03b8b8;
+        text-align: center;
+        
+     }
+
+     #brand {
+        width: 100%;
+        background-color: #028f8f;
+        text-align: center;
+        color: white;
+       }
+       #web{
+        text-align: center;
+    }
+    .formulario{
+        background-color: #045252;
+        color: white;
+    }
+
+       #media
+       {
+        width: 100%;
+        background-color: #028f8f;
+        text-align: center;
+        color: white;
+       }
+
+     .parent{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+    }
+
+    .imgquienessomos{
+        width: 520px;
+    } 
+    
+    .parrafo1{
+        font-size: 20px;
+        color: white;
+    }
+
+     
+
+     .productos h3 {
+        text-align:center;
+        padding: 20px;
+        background-color: rgb(230, 175, 25);
+
+    }
+
+     .productos .contenedor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+     .productos .contenedor div{
+        width: 250px;
+        height: 350px;
+        border: 1px solid black;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .productos .contenedor div h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+    }
+    .productos .contenedor div a{
+    text-decoration: none;
+    color: #045252;
+    background-color: white;
+    }
+    
+    .textoproducto{
+        text-align: center;
+        
+    }
+
+
+    footer{
+        width: 100%;
+       
+        bottom: 0%;
+        left: 0%;
+        padding: 2rem 8%;
+        background-color: #045252;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .logof{
+        height: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .social-icono-container, .footer-menu-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+
+    .social-icono{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 1px solid white;
+        background-image: ;
+        background-position: center;
+        background-size: 40%;
+        margin: 1rem;
+        }
+
+
+        .social-icono:hover{
+            background-color: black;
+            filter: invert(1);
+        }
+        .social-icono:nth-of-type(2){
+            background-image: url();
+        }
+        .social-icono:nth-of-type(3){
+            background-image: url();
+        }
+        .social-icono:nth-of-type(4){
+            background-image: url();
+        }
+
+
+        .footer-menu-container{
+            list-style-type: none;
+            color: white;
+            font-size: 18px;
+             }
+
+
+             .menu-item {
+                margin: 1rem 1.5rem;
+                cursor: pointer;
+                opacity: 0.6;
+             }
+
+
+             .menu-item:hover{
+                opacity: 1;
+            }
+
+         
