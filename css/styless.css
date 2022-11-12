@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
+
 html {
     font: size 62px;
 }
@@ -12,28 +13,23 @@ header{
     margin-top: 0%;
     
 }
+
 .logoheader{
     width: 8rem;
     justify-content: center;
 }
-.video{
-   
-    width: 40rem;
-    
-}
-a {
-    text-decoration: none;
+
+.video{width: 40rem;}
+
+a{text-decoration: none;
     color: wheat;
-    margin: 1rem;
-}
-body {
-   background-color: #03cccc;
-}
+    margin: 1rem;}
+
+body { background-color: #03cccc;}
 
 
-.boton{
-    padding: 1rem;
-}
+.boton{ padding: 1rem;}
+
 
 .navegacion  {
     list-style: none;
@@ -45,15 +41,32 @@ body {
     margin-bottom: 50px;
     flex-wrap: wrap;
     }
-   
+
+    .dementes{
+        color: #045252;
+     }
+
+     .parrafo1{
+        font-size: 20px;
+        color: #045252;
+     }
+     .agencia{
+        background-color:#028f8f;
+     }
+     .expeeriencia{
+        background-color: #03cccc;
+     }
+     .contenedor1{
+        background-color:#028f8f ;
+     }
 
 
      #dementes{
         width: 100%;
-        background-color: #03b8b8;
+        background-color: #028f8f;
         text-align: center;
-        
      }
+     
 
      #brand {
         width: 100%;
@@ -61,13 +74,13 @@ body {
         text-align: center;
         color: white;
        }
+
        #web{
-        text-align: center;
-    }
+        text-align: center;}
+
     .formulario{
         background-color: #045252;
-        color: white;
-    }
+        color: white; }
 
        #media
        {
@@ -79,7 +92,7 @@ body {
 
      .parent{
         display: grid;
-        grid-template-columns:repeat(2,1fr) ;
+        grid-template-columns:repeat(2,1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 20px;
         grid-row-gap: 0px;
@@ -89,25 +102,15 @@ body {
         width: 520px;
     } 
     
-    .parrafo1{
-        font-size: 20px;
-        color: white;
-    }
-
-     
-
-     .productos h3 {
+    .productos h3 {
         text-align:center;
         padding: 20px;
-        background-color: rgb(230, 175, 25);
-
-    }
+        background-color: #e4ae1c;}
 
      .productos .contenedor{
         display: flex;
         justify-content: space-around;
-        align-items: center;
-    }
+        align-items: center;}
 
      .productos .contenedor div{
         width: 250px;
@@ -128,14 +131,12 @@ body {
     }
     
     .textoproducto{
-        text-align: center;
-        
+        text-align: center;    
     }
 
 
     footer{
-        width: 100%;
-       
+        width: 100%;      
         bottom: 0%;
         left: 0%;
         padding: 2rem 8%;
@@ -166,7 +167,6 @@ body {
         width: 50px;
         border-radius: 50px;
         border: 1px solid white;
-        background-image: ;
         background-position: center;
         background-size: 40%;
         margin: 1rem;
@@ -177,9 +177,11 @@ body {
             background-color: black;
             filter: invert(1);
         }
+
         .social-icono:nth-of-type(2){
             background-image: url();
         }
+
         .social-icono:nth-of-type(3){
             background-image: url();
         }
