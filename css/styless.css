@@ -8,22 +8,43 @@ html {
 }
 
 header{
+    display: flex;
+    align-items: center;
     background-color: #045252;
     padding: 1rem;
-    margin-top: 0%;
-    
+    margin-top: 0%;   
 }
 
-.logoheader{
-    width: 8rem;
-    justify-content: center;
+.contenedor{
+
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
 }
+.menu-navegacion{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+/*  
+.navegacion-contenedor  {
+    padding: 0%;
+     display: flex;
+     justify-content: space-between;
+     margin-right: 2rem;
+     color: white;
+     text-transform: uppercase;
+     margin-bottom: 50px;
+     flex-wrap: wrap;
+     }
+*/
 
-.video{width: 40rem;}
-
-a{text-decoration: none;
-    color: wheat;
-    margin: 1rem;}
+     a{text-decoration: none;
+ color: white;
+  margin: 1rem;}
 
 body { background-color: #03cccc;}
 
@@ -31,25 +52,68 @@ body { background-color: #03cccc;}
 .boton{ padding: 1rem;}
 
 
-.navegacion  {
-    list-style: none;
-    display: flex;
-    justify-content: right;
-    margin-right: 2rem;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+
+    .img {
+        max-width: 100%;
+    }
+    .titulo-dementes{
+        padding: 35px; ;
+        color: #ffffff;   
+        text-align: center;     
+     }
+
+     .titulo-producto{
+        padding: 35px;
+        color: #045252;
+        text-align: center;
+     }
+     .tituloquienessomos1{
+        padding: 35px;
+        color: #ffffff;
+        text-align: center;
+     }
+     .tituloquinessomos2{
+        padding: 35px;
+        color: #ffffff;
+        text-align: center;
+     }
+     .titulosquinessomos3{
+        padding: 35px;
+        color: #ffffff;
+        text-align: center;    
     }
 
-    .dementes{
-        color: #045252;
+     .contenedorflex1{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 3%;
+        
+     }
+     .quienessomos-2{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 3%;
+     }
+     .quienessomos-3{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 3%;
+     }
+  
+     .parrafo1{
+        font-size: 21px;
+        color: #ffffff;
      }
 
-     .parrafo1{
-        font-size: 20px;
-        color: #045252;
+     .textoquienessomos-2{
+        font-size: 21px;
+        color: #ffffff;
      }
+     .textoquienessomos-3{
+        font-size: 21px;
+        color: #ffffff;
+     }
+
      .agencia{
         background-color:#028f8f;
      }
@@ -59,6 +123,12 @@ body { background-color: #03cccc;}
      .contenedor1{
         background-color:#028f8f ;
      }
+     .navegacion{
+        padding: 10px;
+        list-style: none;
+        display: flex;
+        margin-right: 2rem;
+     } 
 
 
      #dementes{
@@ -66,29 +136,103 @@ body { background-color: #03cccc;}
         background-color: #028f8f;
         text-align: center;
      }
-     
-
+   
      #brand {
-        width: 100%;
         background-color: #028f8f;
+         text-align: center;
+         color: white;
+        }
+     .brand1{
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 21px;
+        padding: 3%;
+     }  
+      .textobrand1{
+        padding: 35px;
+        color: #ffffff;
         text-align: center;
-        color: white;
-       }
-
+     }
+     .web1{
+     display: flex;
+     flex-direction: row-reverse;
+     font-size: 21px;
+     color: #ffffff;
+     padding: 3%;
+     }
+     .tituloweb1{
+        padding: 35px;
+        text-align: center;
+        color: #ffffff;
+     }
        #web{
         text-align: center;}
+
+        #socialmedia
+        {
+         background-color: #028f8f;
+         text-align: center;
+         color: white;
+        }   
+        /*.socialmedia1{
+            display: grid;
+            grid-template-areas: 
+            "imagen texto"  
+            "imagen lista";
+            grid-template-rows: 100px 1fr 1fr;
+         }  */
+         #grilla{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            font-size: 21px;
+            padding: 3%;
+         }
+        
+         .lista{
+            padding: 20px;
+         }
+
+            
+        .titulosocialmedia{
+           padding: 35px;
+           text-align: center;
+           color: #ffffff; 
+        }
+        .contacto1{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 3%;
+            
+         }
+         .listac{
+            font-size: 21px;
+            color: #ffffff;
+         }
+         .contenedorformulario{
+            display: flex;
+            flex-direction: row;
+           
+         }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .formulario{
         background-color: #045252;
         color: white; }
 
-       #media
-       {
-        width: 100%;
-        background-color: #028f8f;
-        text-align: center;
-        color: white;
-       }
+       
 
      .parent{
         display: grid;
@@ -97,10 +241,15 @@ body { background-color: #03cccc;}
         grid-column-gap: 20px;
         grid-row-gap: 0px;
     }
+ 
+    .div2{
+        font-size: 21px;
+        color: #ffffff;
+    }
 
     .imgquienessomos{
         width: 520px;
-    } 
+    }  
     
     .productos h3 {
         text-align:center;
