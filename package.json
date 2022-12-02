@@ -1,0 +1,19 @@
+{
+  "name": "primera-entrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandosacristan/segunda-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandosacristan/segunda-entrega/issues"
+  },
+  "homepage": "https://github.com/fernandosacristan/segunda-entrega#readme",
+  "description": ""
+}

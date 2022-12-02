@@ -1,0 +1,11 @@
+// variable color fondo
+$bg-body:#03cccc; 
+$fuente-clara: rgb(250, 249, 249);
+  
+
+// mixins
+@mixin flex-column-centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}

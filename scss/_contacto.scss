@@ -1,0 +1,38 @@
+.contacto {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+  }
+  .listac {
+    font-size: 21px;
+    color: #ffffff;
+  }
+  .formulario {
+    background-color: #045252;
+    color: white;
+  }
+  .lista {
+    padding: 20px;
+  }
+  
+@media screen and (min-width: 768px) {
+  .contenedor-home {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .contenedor-quienessomos {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contenedor {
+    flex-direction: column;
+  }
+  .contacto {
+    flex-direction: column;
+  }
+}
+
