@@ -3,6 +3,10 @@
     margin: auto;
     overflow: hidden;
   }
+  .Boton {
+    background-color: #045252;
+    padding: 50px;
+  }
   .contenedor-home {
     display: flex;
     flex-direction: column;
@@ -37,6 +41,7 @@
     color: #045252;
     text-align: center;
   } 
+ 
   
 @media screen and (min-width: 768px) {
   .contenedor-home {
@@ -57,6 +62,10 @@
   .contenedorflex1 {
     flex-direction: column;
   }
+  .contenedor-home {
+    flex-direction: column;
+  }
+
 }
 
 
