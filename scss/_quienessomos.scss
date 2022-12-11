@@ -1,93 +1,112 @@
 .tituloquienessomos1 {
-    padding: 35px;
-    color: #ffffff;
-    text-align: center;
-  }
-  .quienessomos-1 {
-    display: flex;
-    flex-direction: row;
-    color: #ffffff;
-    font-size: 21px;
-    align-items: center;
-  }
-  .img-quienessomos {
-    max-width: 100%;
-  }
-  .agencia {
-    background-color: #028f8f;
-  }
-  .tituloquienessomos2 {
-    padding: 35px;
-    color: #ffffff;
-    text-align: center;
-  }
-  .quienessomos-2 {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 3%;
-  }
-  .textoquienessomos-2 {
-    font-size: 21px;
-    color: #ffffff;
-  }
-  .titulosquienessomos3 {
-    padding: 35px;
-    color: #ffffff;
-    text-align: center;
-  }
-  .textoquienessomos-3 {
-    font-size: 21px;
-    color: #ffffff;
-  }
-  .quienessomos-3 {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 3%;
-  }
-  .contenedor-quienessomos {
-    @include flex-column-centrado;
-    gap: 10px;
-  }
-  .contenedor-opciones {
-   @include flex-column-centrado;
-  }
-  .contenedor-label {
-    display: flex;
-    gap: 30px;
-  }
-  .boton-info {
-    @extend .botones-generales;
-    background-color: #eec304;
-    
-  }
-  .contenedor-label label {
-    @extend .botones-generales;
-    background-color: #045252;
-   
-  }  
-  .contenedor-botones a {
-    display: none;
-  }
-  #conoce-mas:checked ~ .contenedor-botones .boton-web {
-    display: block;
-  }
-  #whatsapp:checked ~ .contenedor-botones .boton-whatsapp {
-    display: block;
-  }
-  .expeeriencia {
-    background-color: #03cccc;
-  }
-  .contenedor-quienessomos {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-   
+  padding: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.quienessomos-1 {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-size: 21px;
+  align-items: center;
+}
+
+.img-quienessomos {
+  max-width: 100%;
+}
+
+.agencia {
+  background-color: #028f8f;
+}
+
+.tituloquienessomos2 {
+  padding: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.quienessomos-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 3%;
+}
+
+.textoquienessomos-2 {
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.titulosquienessomos3 {
+  padding: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.textoquienessomos-3 {
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.quienessomos-3 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 3%;
+}
+
+.contenedor-quienessomos {
+  @include flex-column-centrado;
+  gap: 10px;
+}
+
+.contenedor-opciones {
+  @include flex-column-centrado;
+}
+
+.contenedor-label {
+  display: flex;
+  gap: 30px;
+}
+
+.boton-info {
+  @extend .botones-generales;
+  background-color: #eec304;
+
+}
+
+.contenedor-label label {
+  @extend .botones-generales;
+  background-color: #045252;
+
+}
+
+.contenedor-botones a {
+  display: none;
+}
+
+#conoce-mas:checked~.contenedor-botones .boton-web {
+  display: block;
+}
+
+#whatsapp:checked~.contenedor-botones .boton-whatsapp {
+  display: block;
+}
+
+.expeeriencia {
+  background-color: #03cccc;
+}
+
+.contenedor-quienessomos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 
 
 .boton {
   padding: 1rem;
-}  
+}
 
 @media screen and (min-width: 768px) {
 
@@ -96,18 +115,18 @@
     flex-direction: row;
   }
 }
+
 @media screen and (max-width: 767px) {
   .quienessomos-1 {
     flex-direction: column;
   }
+
   .quienessomos-2 {
     flex-direction: column;
   }
+
   .quienessomos-3 {
     flex-direction: column;
   }
- 
+
 }
-
-
-

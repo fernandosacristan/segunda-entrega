@@ -19,6 +19,9 @@ header {
   padding: 1rem;
   margin-top: 0%;
 }
+a {
+padding: 5px;
+}
 
 .nav-link {
   text-decoration: none;
@@ -118,7 +121,12 @@ img {
     flex-direction: row;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
+  .contenedor-home {
+    flex-direction: column;
+
+  }
+
   .contenedor {
     flex-direction: column;
   }
@@ -159,8 +167,16 @@ img {
   flex-direction: row-reverse;
   padding: 3%;
 }
-
+.textoquienessomos-1 {
+  font-size: 21px;
+  color: #ffffff;
+  padding: 1  5px;
+}
 .textoquienessomos-2 {
+  font-size: 21px;
+  color: #ffffff;
+}
+.textoquienessomos-3 {
   font-size: 21px;
   color: #ffffff;
 }
@@ -171,10 +187,7 @@ img {
   text-align: center;
 }
 
-.textoquienessomos-3 {
-  font-size: 21px;
-  color: #ffffff;
-}
+
 
 .quienessomos-3 {
   display: flex;
@@ -240,7 +253,7 @@ img {
     flex-direction: row;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .quienessomos-1 {
     flex-direction: column;
   }
@@ -312,7 +325,10 @@ img {
     flex-direction: row;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
+  .contenedor-home {
+    flex-direction: column;
+  }
   .contenedor {
     flex-direction: column;
   }
@@ -393,17 +409,14 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .contenedor-home {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
+  
   .contenedor-quienessomos {
     width: 100%;
     flex-direction: row;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
+ 
   .contenedor {
     flex-direction: column;
   }
